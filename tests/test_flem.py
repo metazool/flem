@@ -7,7 +7,6 @@ import pytest
 
 from click.testing import CliRunner
 
-from fenics import *
 from flem import flem
 from flem import cli
 

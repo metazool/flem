@@ -7,8 +7,8 @@ __email__ = 'john.joseph.armitage@gmail.com'
 __version__ = '0.1.0'
 
 
-from .flow_func import sd_cellcell,mfd_cellcell,sd_nodenode,mfd_nodenode
-from flem.flow_func import sd_cellcell,mfd_cellcell,sd_nodenode,mfd_nodenode
+from .flow_func import sd_cellcell, mfd_cellcell, sd_nodenode, mfd_nodenode
+from flem.flow_func import sd_cellcell, mfd_cellcell, sd_nodenode, mfd_nodenode
 from .solve_flem import solve_flem
 
-__all__ = ["sd_cellcell","mfd_cellcell","sd_nodenode","mfd_nodenode","solve_flem"]
+__all__ = ["sd_cellcell", "mfd_cellcell", "sd_nodenode", "mfd_nodenode", "solve_flem"]
