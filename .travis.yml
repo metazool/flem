@@ -14,6 +14,7 @@ install:
     - conda config --add channels conda-forge
     - conda install -c conda-forge --file requirements_conda.txt
     - pip install -U tox-travis
+    - pip install -U tox-conda
     - pip install -r requirements.txt
 
 # Command to run tests, e.g. python setup.py test
