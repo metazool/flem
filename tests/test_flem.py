@@ -7,6 +7,7 @@ import pytest
 
 from click.testing import CliRunner
 
+from fenics import *
 from flem import flem
 from flem import cli
 
@@ -14,7 +15,6 @@ from flem import cli
 @pytest.fixture
 def response():
     """Sample pytest fixture.
-
     See more at: http://doc.pytest.org/en/latest/fixture.html
     """
     # import requests
